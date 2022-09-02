@@ -1,0 +1,679 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+@-webkit-keyframes go-back {
+  0% {
+    transform: translateX(400px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes go-back {
+  0% {
+    transform: translateX(400px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 213px;
+  padding: 75px;
+}
+body header .header-button {
+  width: 165px;
+  border: 1px hsl(322deg, 100%, 66%) solid;
+  font-size: 18px;
+  border-radius: 28px;
+  background-color: white;
+  color: hsl(322deg, 100%, 66%);
+  cursor: pointer;
+  transition: 0.1s;
+}
+body header .header-button:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+body main .main-h1 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: hsl(192deg, 100%, 9%);
+  margin-bottom: 30px;
+}
+body main .main-p-1 {
+  text-align: center;
+  width: 655px;
+  font-size: 21px;
+  color: hsl(192deg, 100%, 9%);
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+body main .main-button-1 {
+  width: 407px;
+  height: 75px;
+  background-color: hsl(322deg, 100%, 66%);
+  font-size: 19px;
+  font-weight: 600;
+  color: hsl(207deg, 100%, 98%);
+  border-radius: 40px;
+  transition: 0.1s;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+}
+body main .main-button-1:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+body main .image-mockups {
+  margin-bottom: 60px;
+}
+body main .image-mockups img {
+  width: 100%;
+  -webkit-animation: go-back 2s;
+          animation: go-back 2s;
+}
+body main .numbers {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+body main .numbers .communities .communities-h2 {
+  font-size: 65px;
+}
+body main .numbers .communities .communities-p {
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+}
+body main .numbers .communities .communities-img-1 {
+  width: 50px;
+}
+body main .numbers .communities .communities-img-2 {
+  width: 36px;
+}
+body main .image-background-up {
+  background: url(../images/bg-section-top-desktop-1.svg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+body main .grow {
+  background-color: hsl(207deg, 100%, 98%);
+  display: flex;
+  padding: 101px;
+  width: 100%;
+}
+body main .grow .grow-text {
+  padding: 52px;
+  width: 655px;
+}
+body main .grow .grow-text .grow-h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  color: hsl(192deg, 100%, 9%);
+  margin-bottom: 20px;
+}
+body main .grow .grow-text .grow-p {
+  font-size: 17px;
+  color: hsl(192deg, 100%, 9%);
+}
+body main img {
+  width: 500px;
+}
+body main .image-background-botton {
+  background: url(../images/bg-section-bottom-desktop-1.svg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 100px;
+}
+body main .flowing {
+  display: flex;
+  padding: 35px;
+  margin-bottom: 100px;
+}
+body main .flowing .flowing-text {
+  padding: 101px;
+}
+body main .flowing .flowing-text .flowing-h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  color: hsl(192deg, 100%, 9%);
+  margin-bottom: 20px;
+}
+body main .flowing .flowing-text .flowing-p {
+  width: 553px;
+  font-size: 17px;
+  color: hsl(192deg, 100%, 9%);
+}
+body main .flowing .flowing-image img {
+  width: 500px;
+}
+body main .image-background-up-2 {
+  background: url(../images/bg-section-top-desktop-2.svg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+body main .users {
+  background-color: hsl(207deg, 100%, 98%);
+  display: flex;
+  padding: 101px;
+  width: 100%;
+}
+body main .users .users-text {
+  padding: 52px;
+  width: 655px;
+}
+body main .users .users-text .users-h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  color: hsl(192deg, 100%, 9%);
+  margin-bottom: 20px;
+}
+body main .users .users-text .users-p {
+  font-size: 17px;
+  color: hsl(192deg, 100%, 9%);
+}
+body main .image-background-botton-2 {
+  background: url(../images/bg-section-bottom-desktop-2.svg) no-repeat;
+  width: 100%;
+  margin-bottom: 100px;
+}
+body main .ready {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main .ready .ready-h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  color: hsl(192deg, 100%, 9%);
+  margin-bottom: 30px;
+}
+body main .ready .ready-button {
+  width: 400px;
+  height: 65px;
+  background-color: hsl(322deg, 100%, 66%);
+  border-radius: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(207deg, 100%, 98%);
+  cursor: pointer;
+  transition: 0.1s;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.14);
+}
+body main .ready .ready-button:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+body .footer-bg {
+  background: url(../images/bg-footer-top-desktop.svg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 152px;
+}
+body footer {
+  display: flex;
+  justify-content: end;
+  background-color: hsl(192deg, 100%, 9%);
+  color: hsl(207deg, 100%, 98%);
+  display: flex;
+  height: 385px;
+}
+body footer .footer-1 {
+  padding: 110px;
+  display: flex;
+  flex-direction: column;
+}
+body footer .footer-1 .image-footer {
+  margin-bottom: 20px;
+}
+body footer .footer-1 .image-footer img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(283deg) brightness(103%) contrast(102%);
+}
+body footer .footer-1 .lorem {
+  width: 331px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+body footer .footer-1 .phone {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+body footer .footer-1 .phone img {
+  margin-right: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+body footer .footer-1 .phone img:hover {
+  filter: brightness(0) saturate(100%) invert(91%) sepia(15%) saturate(7496%) hue-rotate(283deg) brightness(101%) contrast(108%);
+}
+body footer .footer-1 .email {
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+body footer .footer-1 .email img {
+  margin-right: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+body footer .footer-1 .email img:hover {
+  filter: brightness(0) saturate(100%) invert(91%) sepia(15%) saturate(7496%) hue-rotate(283deg) brightness(101%) contrast(108%);
+}
+body footer .footer-1 ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  width: 150px;
+}
+body footer .footer-1 ul li {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(283deg) brightness(103%) contrast(102%);
+  width: 40px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+body footer .footer-1 ul li:hover {
+  filter: brightness(0) saturate(100%) invert(91%) sepia(15%) saturate(7496%) hue-rotate(283deg) brightness(101%) contrast(108%);
+}
+body footer .footer-2 {
+  padding: 110px;
+  margin-left: 145px;
+}
+body footer .footer-2 .new {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+body footer .footer-2 .new-p {
+  width: 372px;
+  font-size: 16px;
+  margin-bottom: 45px;
+  line-height: 26px;
+}
+body footer .footer-2 .buttons {
+  display: flex;
+  border-radius: 10px;
+}
+body footer .footer-2 .buttons .input-text {
+  border-radius: 10px;
+  width: 340px;
+  height: 50px;
+}
+body footer .footer-2 .buttons .subscribe {
+  border-radius: 10px;
+  margin-left: 30px;
+  width: 140px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: hsl(322deg, 100%, 66%);
+  color: hsl(207deg, 100%, 98%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+body footer .footer-2 .buttons .subscribe:hover {
+  color: hsl(322deg, 100%, 66%);
+  background-color: hsl(207deg, 100%, 98%);
+}
+@media (min-width: 1600px) {
+  body main .grow {
+    justify-content: center;
+  }
+  body main .flowing {
+    padding: 15px;
+  }
+  body main .flowing .flowing-text {
+    padding: 0;
+  }
+  body main .flowing .flowing-image {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .users {
+    justify-content: center;
+  }
+  body .footer-bg {
+    height: 178px;
+  }
+  body footer {
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1700px) {
+  body main .flowing .flowing-text {
+    padding: 34px;
+  }
+  body .footer-bg {
+    height: 181px;
+  }
+}
+@media (max-width: 1024px) {
+  body footer .footer-2 {
+    width: 466px;
+    padding: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) {
+  body main .main-h1 {
+    text-align: center;
+  }
+  body main .numbers {
+    width: 768px;
+  }
+  body main .grow {
+    padding: 32px;
+  }
+  body main .grow .grow-text .grow-h2 {
+    width: 332px;
+  }
+  body main .grow .grow-image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  body main .grow .grow-image img {
+    width: 575px;
+  }
+  body main .flowing {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 675px;
+  }
+  body main .flowing .flowing-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .flowing .flowing-image img {
+    width: 300px;
+  }
+  body main .flowing .flowing-text {
+    margin-left: 45px;
+    padding: 0;
+  }
+  body main .flowing .flowing-text .flowing-p {
+    width: 390px;
+  }
+  body main .users .users-text {
+    padding: 0;
+  }
+  body main .users .user-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .users .user-image img {
+    width: 424px;
+  }
+  body main .image-background-botton-2 {
+    background: none;
+  }
+  body footer .footer-1 {
+    padding: 65px;
+  }
+  body footer .footer-2 {
+    width: 310px;
+  }
+  body footer .footer-2 .new-p {
+    width: 300px;
+  }
+  body footer .buttons {
+    width: 300px;
+  }
+}
+@media (max-width: 640px) {
+  body main .main-h1 {
+    text-align: center;
+    font-size: 37px;
+  }
+  body main .main-p-1 {
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+  }
+  body main .numbers {
+    width: 183px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .grow {
+    flex-direction: column-reverse;
+  }
+  body main .grow .grow-text {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grow .grow-text .grow-h2 {
+    font-size: 31px;
+    text-align: center;
+    width: 235px;
+  }
+  body main .grow .grow-text .grow-p {
+    width: 370px;
+    text-align: center;
+  }
+  body main .grow .grow-image {
+    margin-bottom: 40px;
+  }
+  body main .flowing {
+    flex-direction: column;
+  }
+  body main .flowing .flowing-text {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .flowing .flowing-text .flowing-h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  body main .flowing .flowing-text .flowing-p {
+    text-align: center;
+    width: 425px;
+    font-size: 18px;
+  }
+  body main .flowing .flowing-image {
+    margin-bottom: 50px;
+  }
+  body main .users {
+    flex-direction: column-reverse;
+  }
+  body main .users .users-text {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .users .users-text .users-h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  body main .users .users-text .users-p {
+    width: 382px;
+    text-align: center;
+  }
+  body main .users .user-image {
+    margin-bottom: 40px;
+  }
+  body main .image-background-botton-2 {
+    background: url(../images/bg-section-bottom-desktop-2.svg) no-repeat;
+    background-size: contain;
+  }
+  body main .ready .ready-h2 {
+    text-align: center;
+  }
+  body .footer-bg {
+    background: url(../images/bg-footer-top-mobile.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  body footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  body footer .footer-2 .buttons {
+    flex-wrap: wrap;
+  }
+  body footer .footer-2 .buttons .input-text {
+    margin-bottom: 10px;
+  }
+  body footer .footer-2 .buttons .subscribe {
+    margin-left: 163px;
+  }
+}
+@media (max-width: 425px) {
+  body header {
+    padding: 25px;
+  }
+  body header .header-button {
+    width: 120px;
+  }
+  body main .grow .grow-image img {
+    width: 305px;
+  }
+  body main .flowing {
+    width: 425px;
+    padding: 0;
+  }
+  body main .flowing .flowing-image img {
+    width: 361px;
+  }
+  body main .flowing .flowing-text {
+    width: 425px;
+    margin-left: 0;
+  }
+  body main .users .user-image img {
+    width: 239px;
+  }
+}
+body footer .footer-1 {
+  padding: 26px;
+}
+@media (max-width: 375px) {
+  body header {
+    padding: 16px;
+  }
+  body header .header-button {
+    width: 90px;
+  }
+  body main .main-p-1 {
+    width: 360px;
+  }
+  body main .main-button-1 {
+    width: 300px;
+    height: 65px;
+  }
+  body main .flowing {
+    width: 375px;
+  }
+  body main .flowing .flowing-image {
+    width: 90%;
+  }
+  body main .flowing .flowing-image img {
+    width: 341px;
+  }
+  body main .flowing .flowing-text {
+    width: 375px;
+  }
+  body main .flowing .flowing-text .flowing-p {
+    width: 375px;
+  }
+  body main .users .users-text .users-p {
+    width: 360px;
+  }
+  body main .ready .ready-button {
+    width: 300px;
+  }
+}
+body footer .footer-1 {
+  padding: 20px;
+}
+@media (max-width: 320px) {
+  body header img {
+    width: 155px;
+  }
+  body header .header-button {
+    width: 110px;
+  }
+  body main .main-p-1 {
+    width: 320px;
+  }
+  body main .grow .grow-text .grow-p {
+    width: 320px;
+  }
+  body main .flowing {
+    width: 320px;
+  }
+  body main .flowing .flowing-text {
+    width: 320px;
+  }
+  body main .flowing .flowing-text .flowing-p {
+    width: 320px;
+  }
+  body main .users {
+    padding: 10px;
+  }
+  body main .users .users-text .users-p {
+    width: 320px;
+  }
+  body footer .footer-2 {
+    margin-bottom: 10px;
+  }
+  body footer .footer-1 {
+    width: 320px;
+    padding: 0;
+  }
+  body footer .footer-1 .lorem {
+    width: 320px;
+  }
+  body footer .footer-1 .phone {
+    width: 320px;
+  }
+  body footer .footer-1 .email {
+    width: 320px;
+  }
+}/*# sourceMappingURL=main.css.map */
