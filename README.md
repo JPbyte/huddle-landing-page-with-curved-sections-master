@@ -32,8 +32,9 @@ Desktop design
 
 ### Links
 
-- Solution URL: [Huddle landing page with curved sections solution]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Huddle landing page with curved sections solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-solution-K2QEVFZ4Rf)
+- Live Site URL: [Add live site URL here](https://jpbyte.github.io/huddle-landing-page-with-curved-sections-master/
+)
 
 ## My process
 
